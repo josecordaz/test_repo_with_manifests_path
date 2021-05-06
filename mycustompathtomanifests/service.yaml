@@ -2,7 +2,6 @@ apiVersion: v1
 kind: Service
 metadata:
   name: simple-service
-  namespace: my-custome-namespace
 spec:
   selector:
     app: simple-deployment

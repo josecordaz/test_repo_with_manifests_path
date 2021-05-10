@@ -13,7 +13,7 @@ spec:
         - name: simple-deployment
           image: josecordaz/simple-app:latest
           ports:
-            - containerPort: 80
+            - containerPort: 88
   selector:
     matchLabels:
       app: simple-deployment

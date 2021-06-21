@@ -1,0 +1,8 @@
+---
+apiVersion: wego.weave.works/v1alpha1
+kind: Application
+metadata:
+  name: testing-app
+spec:
+  path: ./mycustompathtomanifests
+  url: ssh://git@github.com/josecordaz/test-repo-with-manifests-path
